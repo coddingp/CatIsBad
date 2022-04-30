@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CatIsBad</string>
+    <string name="cat_image">cat image</string>
+    <string name="new_cat_image">new cat image call</string>
+</resources>
