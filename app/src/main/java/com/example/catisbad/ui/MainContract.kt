@@ -1,9 +1,8 @@
 package com.example.catisbad.ui
 
-import com.example.catisbad.model.AllCatsInstance
-import com.example.catisbad.model.CatsData
+import com.example.catisbad.model.CatsClass
 
 interface MainContract {
     fun failure(message: String)
-    fun showCatsData(data: AllCatsInstance)
+    fun showCatsData(data: List<CatsClass>)
 }
